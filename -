@@ -23,7 +23,7 @@ local portals = {
 
 function tp(pn, pd)
     workspace.Lobby.Portals[pn].Touched:Connect(function()
-        ts:TeleportAsync(pd)
+        ts:TeleportAsync(pd, game:GetService("Players").Players.LocalPlayer)
     end)
 end
 
