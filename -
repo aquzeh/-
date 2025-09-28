@@ -16,6 +16,7 @@ local portals = {
     PortalFutsal = 16452721151,
     PortalCup = 16453243555,
     Portal1vs1 = 18738477182,
+    Portal2vs2 = 130754361889730,
     PortalWorldElimination = 110385211492799,
     PortalBeach = 16452699830,
     PortalProCup = 138792551842718
