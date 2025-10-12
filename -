@@ -23,8 +23,10 @@ local portals = {
 }
 
 function tp(pn, pd)
-    workspace.Lobby.Portals[pn].Touched:Connect(function()
-        ts:Teleport(pd)
+    pcall(function()
+        workspace.Lobby.Portals[pn].Touched:Connect(function()
+            ts:Teleport(pd)
+        end)
     end)
 end
 
